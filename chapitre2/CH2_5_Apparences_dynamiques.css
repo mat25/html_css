@@ -95,3 +95,13 @@ h1:hover , .ol:hover
     color: blue;
 }
 
+h1:active , .ol:active
+{
+    text-decoration: underline;
+}
+
+p:hover
+{
+    font-style: italic;
+}
+
