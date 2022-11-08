@@ -1,11 +1,11 @@
-*
+body
 {
-    font-family: 'Courier New', sans-serif;
+    font-family: "Courier News";
     font-size: 12px;
     text-align: justify;
 }
 
-h1
+.titreFormat
 {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -35,7 +35,7 @@ h1
 
 
 
-.ol
+.Puces-numerote
 {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -43,7 +43,7 @@ h1
     font-weight: bold;
 }
 
-.ul
+.puces-pointe
 {
     font-size: 13px;
     text-decoration: underline;
@@ -90,12 +90,12 @@ h1
 Ajout des Apparences Dynamiques
 */
 
-h1:hover , .ol:hover
+.titreFormat:hover , .Puces-numerote:hover
 {
     color: blue;
 }
 
-h1:active , .ol:active
+.titreFormat:active , .Puces-numerote:active
 {
     text-decoration: underline;
 }
@@ -108,6 +108,7 @@ p:hover
 /*
 Ajout des Apparences Dynamiques Pour les liens hypertextes
 */
+
 
 
 a
