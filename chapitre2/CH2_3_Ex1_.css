@@ -1,0 +1,21 @@
+*
+{
+    font-size: 30px;
+    color: white;
+}
+h1
+{
+    color: purple;
+    font-size: 70px;
+}
+h2
+{
+    font-size: 50px;
+}
+body
+{
+    background: url(image/pingouin.png) no-repeat center top fixed , url(image/feuilles.png) repeat local;
+}
+a{
+    color: blue;
+}

@@ -1,0 +1,25 @@
+body
+{
+    background: #565555; 
+    color: white;
+}
+.premierArticle
+{
+    background: url(image/pingouin.png) no-repeat blue border-box center;
+    background-size: contain;
+}
+.deuxiemeArticle
+{
+    background: url(image/pingouin.png) no-repeat center green padding-box;
+    background-size: contain;
+}
+.troisiemeArticle
+{
+    padding: 5px;
+    background: url(image/pingouin.png) no-repeat center purple content-box;
+    background-size: contain;
+}
+article
+{
+    border: 5px red dashed;
+}
