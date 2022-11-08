@@ -105,3 +105,15 @@ p:hover
     font-style: italic;
 }
 
+/*
+Ajout des Apparences Dynamiques Pour les liens hypertextes
+*/
+
+
+a
+{
+    color : black;
+    text-decoration: none;
+}
+
+

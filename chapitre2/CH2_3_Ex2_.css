@@ -3,21 +3,23 @@ body
     background: url(image/pingouin.png) no-repeat blue center ;
     background-size: 90%;
 }
-section
-{
-    background: lightcoral;
-    opacity: 0.8;
-}
+
 article
 {
     background: url(image/pingouin.png) no-repeat red center ;
     opacity: 0.8;
     background-size: 10%;
+    margin-right: 2cm;
+    margin-left: 2cm;
 }
-p
+
+section
 {
-    position: right;
+    background: lightcoral;
+    opacity: 0.8;
 }
+
+
 h1
 {
     color: blueviolet;
