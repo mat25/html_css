@@ -35,7 +35,7 @@ h1
 
 
 
-.ol
+.Puces-numerote
 {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -43,7 +43,7 @@ h1
     font-weight: bold;
 }
 
-.ul
+.puces-pointe
 {
     font-size: 13px;
     text-decoration: underline;
