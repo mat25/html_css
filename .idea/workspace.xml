@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62dbd5bc-6d9c-4327-add3-2095dced4665" name="Changes" comment="ch3_5">
+    <list default="true" id="62dbd5bc-6d9c-4327-add3-2095dced4665" name="Changes" comment="Push chapitre 1 et 2">
+      <change afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_accueil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapitre2/CH2_4_.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre2/CH2_4_.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +38,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +60,11 @@
       <updated>1667917986360</updated>
       <workItem from="1667917987548" duration="6406000" />
       <workItem from="1667998628745" duration="4000" />
+      <workItem from="1668518249432" duration="1311000" />
+      <workItem from="1668519778608" duration="1416000" />
+      <workItem from="1668598848092" duration="4518000" />
+      <workItem from="1668687231816" duration="2074000" />
+      <workItem from="1669035487624" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="ch3_5">
       <created>1667918656368</created>
@@ -71,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667926062871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch3_5">
+      <created>1668518386189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668518386189</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Push chapitre 1 et 2">
+      <created>1668518497081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668518497081</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ch3_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch3_5" />
+    <MESSAGE value="Push chapitre 1 et 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push chapitre 1 et 2" />
   </component>
 </project>
