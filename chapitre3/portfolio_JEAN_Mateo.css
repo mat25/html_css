@@ -1,68 +1,142 @@
 body
 {
-    background-color: #1B1E3D;
+    padding-top: 90px; /* Pour comment a require apres la barre de navigation */
+    margin: 0;  /* par defaut il est a 8 donc je le remet a 0 */
+    background: url("image/portfolio-fond.jpg"); /* image de fond */
+    font-family: "Pacifico", sans-serif; /* police d'ecriture */
 }
 
 
-/*  */
+/*-------------------------------------------------------------
+                Menu navigation
+-------------------------------------------------------------*/
 .navigation{
-    background: #000; /* fond */
-    color: #fff;
-    padding: 0.5em 0;
-    position: fixed; /* Le menu a une position fixe lors de la descente dans la page */
+    background: #696D7D; /* fond */
+    color: #fff; /* test */
+    padding: 0.5em;  /* ajuster la marcge au dessus */
+    position: fixed; /* Menu ne descent pas */
     text-align: center; /* alignement du texte centré */
     width: 100%; /* largeur 100% de la fenêtre */
     top: 0px; /* aligné à 0px du haut */
     left: 0px; /* aligné à 0px de la gauche */
 }
 .navigation  a{
-    padding: 0.5em 3%;
+    padding: 0.5em 3%;  /* ecart entre les menu */
     color: #fff;
-    text-decoration: none;
-    height: 33px;
-    transition: 0.5s;
+    text-decoration: none;  /* enleve le souligner */
+    height: 33px;  /* hauteur */
+    transition: 1s;
 }
 
 .navigation  a:hover{
-    background: #f43c80; /* couleur de fond */
+    background: #59C6BD; /* couleur de fond lors du passage de souris */
 }
 
-/* Pied de page */
-.piedDePage
+
+
+/*-------------------------------------------------------------
+                        Pied de page
+-------------------------------------------------------------*/
+footer
 {
-    background: #000;
-    color: #fff;
-    text-align: center; /* alignement du texte centré */
-    padding-top: 1%;
+    background-color: #696D7D;
     width: 100%; /* largeur 100% de la fenêtre */
-    height: 20rem;
-    word-spacing: 33rem;    /* Espacement entre les mots */
+    height: 20rem; /* hauteur */
 }
 
-.piedDePage a
+footer a
 {
     color: white;
     text-decoration: none; /* enlever le souligner */
     transition: 0.5s;
 }
 
-.piedDePage a:hover
+footer a:hover
 {
-    background: white;
-    color: black;
-    padding: 0.5em 3%;
-    font-size: 1.2em;
+    background: white; /* couleur blanche quand souris dessus */
+    color: black;       /* couleur du texte noir comme fond blanc */
+    padding: 0.5em 3%;  /* Transition qui permet d'elargir le blanc autour du mot donc la zone de cliquage */
+    font-size: 1.2em;    /* grossis le mot quands passage de souris */
+
 }
 
 .colonneAdresse, .colonneMail, .colonneTelephone {
 
     text-align: center;
+    background-color: #696D7D;
     color:white;
-    width:33%;
-    float:left;
+    width:33%;   /* permet de repartir la page en 3 */
+    float:left;  /* permet de ne pas aller a la ligne */
+
 }
 
 
 
+/*-------------------------------------------------------------
+                Contenu principale de toute les pages
+-------------------------------------------------------------*/
+.contenu-page h1
+{
+    text-align: center;
+    color: #21b2a6;
+}
+.contenu-page h2
+{
+    padding-top: 2%;
+    padding-left: 3%;
+    color: #21b2a6;
+}
+
+.contenu-page h3 ,.contenu-page p
+{
+    padding-left: 4%;
+    color: gray;
+    font-weight: bold;
+}
+.contenu-page p
+{
+    font-size: medium;
+    padding-left: 5%;
+}
+
+.contenu-page h3
+{
+    padding-top: 2%;
+    font-size: large;
+    color: #21b2a6;
+    text-decoration: underline;
+}
+
+.contenu-page a
+{
+    color: #21b2a6;
+    text-decoration: underline;
+}
+.contenu-page a:visited
+{
+    color: #21b2a6;
+}
+
+
+
+/*-------------------------------------------------------------
+                Contenu de la page apropos
+-------------------------------------------------------------*/
+.image_apropos img
+{
+    padding-left: 5%;  /* pour decaler les image par rapport au bord */
+    word-spacing: 2rem;     /* pour ecarter les image entre elle */
+}
+
+/*-------------------------------------------------------------
+                 Contenu de la page accueil
+-------------------------------------------------------------*/
+.contenu-accueil{
+    padding-top: 22%;
+    padding-bottom: 22%;
+    text-align: center;
+    color: #21b2a6;
+}
+/* Annimation accueil*/
 
 
