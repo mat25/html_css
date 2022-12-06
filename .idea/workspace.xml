@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62dbd5bc-6d9c-4327-add3-2095dced4665" name="Changes" comment="Push chapitre 1 et 2">
-      <change afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_accueil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo.css" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_aPropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_aPropos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_certif.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_certif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_projets.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_projets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_veille.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapitre3/portfolio_JEAN_Mateo_veille.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +69,7 @@
       <workItem from="1668598848092" duration="4518000" />
       <workItem from="1668687231816" duration="2074000" />
       <workItem from="1669035487624" duration="29000" />
+      <workItem from="1670333198697" duration="10282000" />
     </task>
     <task id="LOCAL-00001" summary="ch3_5">
       <created>1667918656368</created>

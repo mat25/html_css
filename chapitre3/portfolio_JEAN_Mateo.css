@@ -8,17 +8,18 @@ body
 
 
 /*-------------------------------------------------------------
-                Menu navigation
+                        Menu navigation
 -------------------------------------------------------------*/
 .navigation{
     background: #696D7D; /* fond */
     color: #fff; /* test */
-    padding: 0.5em;  /* ajuster la marcge au dessus */
+    padding: 0.5em;  /* ajuster la marge au dessus */
     position: fixed; /* Menu ne descent pas */
     text-align: center; /* alignement du texte centré */
     width: 100%; /* largeur 100% de la fenêtre */
     top: 0px; /* aligné à 0px du haut */
     left: 0px; /* aligné à 0px de la gauche */
+    z-index: 1;
 }
 .navigation  a{
     padding: 0.5em 3%;  /* ecart entre les menu */
@@ -42,6 +43,7 @@ footer
     background-color: #696D7D;
     width: 100%; /* largeur 100% de la fenêtre */
     height: 20rem; /* hauteur */
+
 }
 
 footer a
@@ -125,18 +127,42 @@ footer a:hover
 .image_apropos img
 {
     padding-left: 5%;  /* pour decaler les image par rapport au bord */
-    word-spacing: 2rem;     /* pour ecarter les image entre elle */
+    word-spacing: 2rem;     /* pour écarter les image entre elle */
 }
+
+/*-------------------------------------------------------------
+                Contenu de la page projet
+-------------------------------------------------------------*/
+.contenu-projet {
+    padding-bottom: 22%;
+}
+
+/*-------------------------------------------------------------
+                Contenu de la page veille-technologique
+-------------------------------------------------------------*/
+.contenu-veille {
+    padding-bottom: 22%;
+}
+
+
+
+.collonne_doite img {
+    position: absolute;left: 80%;
+    z-index: 0;
+}
+
 
 /*-------------------------------------------------------------
                  Contenu de la page accueil
 -------------------------------------------------------------*/
 .contenu-accueil{
-    padding-top: 22%;
-    padding-bottom: 22%;
+    padding-top: 22%;   /* Pour avoir une page entiere */
+    padding-bottom: 22%;  /* Pour avoir une page entiere */
     text-align: center;
     color: #21b2a6;
 }
 /* Annimation accueil*/
+
+
 
 
