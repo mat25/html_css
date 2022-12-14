@@ -20,6 +20,7 @@ body
     top: 0px; /* aligné à 0px du haut */
     left: 0px; /* aligné à 0px de la gauche */
     z-index: 1;
+    box-shadow: 1px 1px 20px #888;
 }
 .navigation  a{
     padding: 0.5em 3%;  /* ecart entre les menu */
@@ -31,6 +32,7 @@ body
 
 .navigation  a:hover{
     background: #59C6BD; /* couleur de fond lors du passage de souris */
+    border-radius: 10px;
 }
 
 
@@ -43,6 +45,7 @@ footer
     background-color: #696D7D;
     width: 100%; /* largeur 100% de la fenêtre */
     height: 20rem; /* hauteur */
+    box-shadow: 1px 1px 20px #888;
 
 }
 
@@ -133,9 +136,54 @@ footer a:hover
 /*-------------------------------------------------------------
                 Contenu de la page projet
 -------------------------------------------------------------*/
-.contenu-projet {
-    padding-bottom: 22%;
+
+.diaporama { /* permet de faire slide les images */
+    animation: slide 10s ease infinite 0s;
+    width: 300%;
+    list-style-type: none;
+    white-space: nowrap;
 }
+@keyframes slide {
+    0%, 20%, 100% {
+        transform: translate(0,0);
+
+    }
+    35%, 55% {
+        transform: translate(-33.33%,0);
+
+    }
+    70%, 90% {
+        transform: translate(-66.67%,0);
+
+    }
+}
+.cadre {    /* Cadre qui affiche que les image a un certain endroit */
+    position: relative;
+    width: 700px;
+    height: 780px;
+    margin: 0 5em;
+    border: 6px solid #FFF;
+    overflow: hidden;
+    box-shadow: 1px 1px 20px #888;
+    border-radius: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/*-------------------------------------------------------------
+           Contenu de la page projet Mastermind
+-------------------------------------------------------------*/
+.image_mastermind {
+    margin-left: 8%;
+    border-radius: 10px;
+}
+#bouton_retour_mastermind {
+    margin-top: 20px;
+    margin-left: 3%;
+    font-size: 40px;
+    position: absolute;
+}
+
 
 /*-------------------------------------------------------------
                 Contenu de la page veille-technologique
@@ -151,7 +199,6 @@ footer a:hover
     z-index: 0;
 }
 
-
 /*-------------------------------------------------------------
                  Contenu de la page accueil
 -------------------------------------------------------------*/
@@ -163,6 +210,16 @@ footer a:hover
 }
 /* Annimation accueil*/
 
-
-
+/*-------------------------------------------------------------
+                 Contenu de la page CV
+-------------------------------------------------------------*/
+.drapeaux {
+    position: absolute;
+    margin-left: 20px;
+}
+.drapeaux img {
+    width: 60px;
+    height: 30px;
+    padding-left: 10px;
+}
 
